@@ -3,15 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to neutronimaging's documentation!
-==========================================
+Welcome to the ORNL Neutron Imaging Web Page
+============================================
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
-
+   prepare_your_venue
+   notebooks
+   contacts
 
 Indices and tables
 ==================
