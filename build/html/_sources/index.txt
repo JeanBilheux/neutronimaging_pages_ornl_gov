@@ -12,6 +12,7 @@ Contents:
    :maxdepth: 2
 
    prepare_your_venue
+   sample_shipping
    notebooks
    contacts
 
