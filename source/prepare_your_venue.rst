@@ -5,6 +5,9 @@ Prepare Your venue
 
 We recommend that you discuss your experiment with the instrument team several weeks before your beam time.
 
+pdf version of the checklist
+:download:`pdf <_static/mypdf.pdf>`
+
 Proposal Confirmation (PI Only)
 -------------------------------
 

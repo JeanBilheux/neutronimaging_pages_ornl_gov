@@ -13,7 +13,7 @@ Contents:
 
    prepare_your_venue
    sample_shipping
-   notebooks
+   data_analysis
    contacts
 
 Indices and tables

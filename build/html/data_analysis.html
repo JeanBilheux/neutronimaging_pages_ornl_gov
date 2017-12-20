@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Analysis &mdash; ORNL Neutron Imaging  documentation</title>
+  <title>Data Analysis &mdash; ORNL Neutron Imaging  documentation</title>
   
 
   
@@ -80,11 +80,19 @@
                 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="prepare_your_venue.html">Prepare Your venue</a></li>
 <li class="toctree-l1"><a class="reference internal" href="sample_shipping.html">Sample Shipping and/or Handling at HFIR</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Analysis</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#how-to-access-your-data">How to access your data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id1">How to connect to our computer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#how-to-reach-your-data">How to reach your data</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#you-are-connected">You are connected</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Data Analysis</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#access-your-data">Access your data</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#how-to-request-access-to-our-computers">How to request access to our computers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-to-connect-to-our-computer">How to connect to our computer</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-to-reach-your-data">How to reach your data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#you-are-connected-to-your-data">You are connected to your data</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#analyze-your-data">Analyze your data</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#how-to-reach-the-jupyter-python-notebooks">How to reach the jupyter python notebooks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-does-it-work">How does it work</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="contacts.html">Instrument Contacts</a></li>
@@ -118,7 +126,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li>Analysis</li>
+    <li>Data Analysis</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -130,24 +138,26 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="analysis">
-<h1>Analysis<a class="headerlink" href="#analysis" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="how-to-access-your-data">
-<span id="how-to-access-data"></span><h2>How to access your data<a class="headerlink" href="#how-to-access-your-data" title="Permalink to this headline">¶</a></h2>
+  <div class="section" id="data-analysis">
+<h1>Data Analysis<a class="headerlink" href="#data-analysis" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="access-your-data">
+<h2>Access your data<a class="headerlink" href="#access-your-data" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="how-to-request-access-to-our-computers">
+<span id="how-to-access-data"></span><h3>How to request access to our computers<a class="headerlink" href="#how-to-request-access-to-our-computers" title="Permalink to this headline">¶</a></h3>
 <p><strong>Step 1</strong> Create an XCAMS account</p>
 <p>If you have not done so, please create an <a class="reference external" href="https://xcams.ornl.gov/xcams/groups/prpsl_user/index.shtml">XCAMS account</a></p>
 <img alt="_images/ipts_access.png" src="_images/ipts_access.png" />
-<p id="how-to-connect-to-our-computer"><strong>Step 2</strong> Request access to HFIR data</p>
+<p><strong>Step 2</strong> Request access to HFIR data</p>
 <p>Request access by vising this page <a class="reference external" href="https://neutronsr.us/accounts/request.html">https://neutronsr.us/accounts/request.html</a></p>
 <img alt="_images/hfir_access.png" src="_images/hfir_access.png" />
 </div>
-<div class="section" id="id1">
-<h2>How to connect to our computer<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="how-to-connect-to-our-computer">
+<span id="id1"></span><h3>How to connect to our computer<a class="headerlink" href="#how-to-connect-to-our-computer" title="Permalink to this headline">¶</a></h3>
 <p>the best way to analyze your data is by using our data analysis and visualization tools on our analysis computer.
 No software to install, all you need is connect to our computer.</p>
 </div>
 <div class="section" id="how-to-reach-your-data">
-<span id="how-to-start-analysis"></span><h2>How to reach your data<a class="headerlink" href="#how-to-reach-your-data" title="Permalink to this headline">¶</a></h2>
+<span id="how-to-start-analysis"></span><h3>How to reach your data<a class="headerlink" href="#how-to-reach-your-data" title="Permalink to this headline">¶</a></h3>
 <p>If you decide to copy/paste your data to your local computer, we recommend the use of
 <a class="reference external" href="https://sourceforge.net/projects/filezilla/">FileZilla</a>.</p>
 <blockquote>
@@ -161,12 +171,24 @@ No software to install, all you need is connect to our computer.</p>
 <p>You can now browse to your data by following the structure  <strong>/HFIR/CG1D/IPTS-XXXX</strong></p>
 <img alt="_images/filezilla_browse.png" src="_images/filezilla_browse.png" />
 </div>
-<div class="section" id="you-are-connected">
-<h2>You are connected<a class="headerlink" href="#you-are-connected" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="you-are-connected-to-your-data">
+<h3>You are connected to your data<a class="headerlink" href="#you-are-connected-to-your-data" title="Permalink to this headline">¶</a></h3>
 <p>After your experiment has begun, your data will be automatically transferred to <strong>analysis.sns.gov</strong> if you are using
 the CCD or the sCMOS detectors. If you are planning on using the CCD, your local contact will transfer the data for you.</p>
 <p>Here is an example of the structure of your IPTS folder</p>
 <img alt="_images/data_structure.png" src="_images/data_structure.png" />
+</div>
+</div>
+<div class="section" id="analyze-your-data">
+<h2>Analyze your data<a class="headerlink" href="#analyze-your-data" title="Permalink to this headline">¶</a></h2>
+<p>To analyze your data, we provide a set of python notebook that can perform the most general request. If you have
+a special need for your analysis and are not sure how to do that, make sur you contact Jean Bilheux (<a class="reference external" href="mailto:bilheuxjm&#37;&#52;&#48;ornl&#46;gov">bilheuxjm<span>&#64;</span>ornl<span>&#46;</span>gov</a>).</p>
+<div class="section" id="how-to-reach-the-jupyter-python-notebooks">
+<h3>How to reach the jupyter python notebooks<a class="headerlink" href="#how-to-reach-the-jupyter-python-notebooks" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="how-does-it-work">
+<h3>How does it work<a class="headerlink" href="#how-does-it-work" title="Permalink to this headline">¶</a></h3>
+</div>
 </div>
 </div>
 
